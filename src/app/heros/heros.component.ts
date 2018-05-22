@@ -11,13 +11,11 @@ export class HerosComponent implements OnInit {
 
   heroes = HEROES;
 
+  hero: Hero;
+
   chooiseElement(element: Hero): void {
     this.hero = element;
   }
-  
-  hero: Hero;
-
-  
   
   constructor() { }
 
